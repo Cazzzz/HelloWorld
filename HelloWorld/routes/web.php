@@ -1,6 +1,6 @@
 <?php
 # @Date:   2020-10-06T09:54:32+01:00
-# @Last modified time: 2020-10-06T10:03:12+01:00
+# @Last modified time: 2020-10-06T10:24:50+01:00
 
 
 
@@ -23,9 +23,9 @@ Route::get('/', function () {
 });
 
 Route::get('helloworld', function (){
-  return '<h1>HelloWorld</h1>';
+  return '<h1>HelloooooooooWorld</h1>';
 });
 
-Route::get('scott', function (){
-  return '<h1>ScotCarey</h1>';
+Route::get('/scott', function (){
+  return view('Scott');
 });
